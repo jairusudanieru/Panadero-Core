@@ -1,0 +1,21 @@
+
+worldGroups:
+  group1:
+    - world
+    - world_nether
+    - world_the_end
+  group2:
+    - spawn
+    - hub
+    - lobby
+  group3:
+    - creative
+  group4:
+    - pvp_arena
+
+message:
+  joinMessage: <yellow>%player% joined the game
+  quitMessage: <yellow>%player% left the game
+  invalidCommand: Invalid command usage, please try again
+  pluginInfoMessage: Panadero-Core - Plugin by made by Jairusu
+  reloadMessage: Configuration successfully reloaded

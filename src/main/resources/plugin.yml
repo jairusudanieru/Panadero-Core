@@ -1,0 +1,10 @@
+name: Panadero-Core
+version: '${project.version}'
+main: plugin.panaderocore.Panadero_Core
+api-version: '1.20'
+
+commands:
+  panadero:
+    description: The main command for this plugin
+    permission: op
+    usage: /panadero <subcommand>
