@@ -1,4 +1,7 @@
 
+config:
+  afkTimeout: 300
+
 worldGroups:
   group1:
     - world

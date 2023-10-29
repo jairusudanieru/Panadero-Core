@@ -29,6 +29,10 @@ public class CoreConfig {
       return plugin.getConfig().getString(key);
    }
 
+   public static long getLong(String key) {
+      return plugin.getConfig().getLong(key);
+   }
+
    public static ConfigurationSection getConfigSection(String key) {
       return plugin.getConfig().getConfigurationSection(key);
    }

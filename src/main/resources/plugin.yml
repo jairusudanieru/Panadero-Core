@@ -4,6 +4,8 @@ main: plugin.panaderocore.Panadero_Core
 api-version: '1.20'
 
 commands:
+  afk:
+    description: afk
   panadero:
     description: panadero
     permission: op
