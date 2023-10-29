@@ -8,7 +8,7 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.command.TabCompleter;
 import org.bukkit.plugin.Plugin;
 import plugin.panaderocore.Methods.CoreConfig;
-import plugin.panaderolobby.PluginMethods.LobbyConfig;
+import plugin.panaderolobby.Methods.LobbyConfig;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -56,8 +56,10 @@ public class Core implements TabCompleter, CommandExecutor {
    private void reloadLobby(CommandSender sender) {
       Plugin lobbyPlugin = Bukkit.getPluginManager().getPlugin("PanaderoLobby");
       if (lobbyPlugin == null) return;
-      LobbyConfig.reloadConfig();
-      sender.sendMessage("");
+      LobbyConfig.plugin.reloadConfig();
+      Component message = LobbyConfig.getComponent("message.reloadMessage");
+      if (message == null) return;
+      sender.sendMessage(message);
    }
 
 }
