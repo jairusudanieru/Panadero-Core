@@ -6,8 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Panadero-Core" />
+        <module name="panadero-core" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Panadero-Core" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

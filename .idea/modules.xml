@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Panadero-Core.iml" filepath="$PROJECT_DIR$/Panadero-Core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/panadero-core.iml" filepath="$PROJECT_DIR$/panadero-core.iml" />
     </modules>
   </component>
 </project>
