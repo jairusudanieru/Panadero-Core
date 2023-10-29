@@ -54,7 +54,7 @@ public class Core implements TabCompleter, CommandExecutor {
    }
 
    private void reloadLobby(CommandSender sender) {
-      Plugin lobbyPlugin = Bukkit.getPluginManager().getPlugin("PanaderoLobby");
+      Plugin lobbyPlugin = Bukkit.getPluginManager().getPlugin("Panadero-Lobby");
       if (lobbyPlugin == null) return;
       LobbyConfig.plugin.reloadConfig();
       Component message = LobbyConfig.getComponent("message.reloadMessage");
